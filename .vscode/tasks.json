@@ -1,0 +1,178 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile All together",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${workspaceRoot}/SourceFiles/AddTwoNumbers.cpp",
+                "${workspaceRoot}/SourceFiles/LongestSubstring.cpp",
+                "${workspaceRoot}/SourceFiles/MedianofTwoSortedArrays.cpp",
+                "${workspaceRoot}/SourceFiles/LongestPalindromicSubstring.cpp",
+                "${workspaceRoot}/SourceFiles/ZigZagConversion.cpp",
+                "${workspaceRoot}/SourceFiles/ReverseInteger.cpp",
+                "${workspaceRoot}/SourceFiles/PalindromeNumber.cpp",
+                "${workspaceRoot}/SourceFiles/ContainerWithMostWater.cpp",
+                "${workspaceRoot}/SourceFiles/IntegertoRoman.cpp",
+                "${workspaceRoot}/SourceFiles/RomantoInteger.cpp",
+                "${workspaceRoot}/SourceFiles/LRUCache.cpp",
+                "${workspaceRoot}/SourceFiles/LeetCodeMain.cpp",
+                "-o",
+                "LeetCodeMain.out"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Zig Zag Conversion",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "ZigZagConversion.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/ZigZagConversion.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Reverse Integer",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "ReverseInteger.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/ReverseInteger.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Median of Two Sorted Arrays",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "MedianofTwoSortedArrays.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/MedianofTwoSortedArrays.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile LRU Cache",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "LRUCache.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/LRUCache.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Longest Substring",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "LongestSubstring.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/LongestSubstring.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Longest Palindromic Substring",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "LongestPalindromicSubstring.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/LongestPalindromicSubstring.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Integer to Roman",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "IntegertoRoman.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/IntegertoRoman.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Add Two Numbers",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "AddTwoNumbers.o",
+                "-c",
+                "${workspaceRoot}/SourceFiles/AddTwoNumbers.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Leet Code Compile",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "LeetCodeMain.out",
+                "${workspaceRoot}/SourceFiles/LeetCodeMain.cpp",
+                "${workspaceRoot}/AddTwoNumbers.o",
+                "${workspaceRoot}/IntegertoRoman.o",
+                "${workspaceRoot}/LongestPalindromicSubstring.o",
+                "${workspaceRoot}/LongestSubstring.o",
+                "${workspaceRoot}/LRUCache.o",
+                "${workspaceRoot}/MedianofTwoSortedArrays.o",
+                "${workspaceRoot}/ReverseInteger.o",
+                "${workspaceRoot}/ZigZagConversion.o"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
