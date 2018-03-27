@@ -40,9 +40,24 @@ int ReverseInteger::reverse(int x)
 	return ReverseValue;
 }
 
+int ReverseInteger::reverse2(int x) 
+{
+    int ReverseValue = 0, Value = x;
+    int MaxInt = INT_MAX / 10, MinInt = INT_MIN / 10;
+    do
+    {
+        if (ReverseValue > MaxInt || ReverseValue < MinInt)
+		    return 0;
+        ReverseValue = ReverseValue*10 + Value % 10;
+        Value /= 10;
+    } while (Value != 0);
+    return ReverseValue;
+}
+
 void ReverseInteger::Main()
 {	// Test Case setting 
 	int testA = 1534236469;
 
-	std::cout << reverse(testA) << std::endl;
+	//std::cout << reverse(testA) << std::endl;
+	std::cout << reverse2(testA) << std::endl;	// Final
 }

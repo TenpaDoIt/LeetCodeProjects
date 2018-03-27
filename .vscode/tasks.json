@@ -4,6 +4,21 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Debug Case",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "Debug.out",
+                "${workspaceRoot}/SourceFiles/HammingWeight.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
             "label": "Compile All together",
             "type": "shell",
             "command": "g++",
@@ -18,6 +33,7 @@
                 "${workspaceRoot}/SourceFiles/ContainerWithMostWater.cpp",
                 "${workspaceRoot}/SourceFiles/IntegertoRoman.cpp",
                 "${workspaceRoot}/SourceFiles/RomantoInteger.cpp",
+                "${workspaceRoot}/SourceFiles/ThreeSum.cpp",
                 "${workspaceRoot}/SourceFiles/LRUCache.cpp",
                 "${workspaceRoot}/SourceFiles/LeetCodeMain.cpp",
                 "-o",

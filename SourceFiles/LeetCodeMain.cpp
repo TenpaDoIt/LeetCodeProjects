@@ -9,6 +9,10 @@
 #include "../HeaderFiles/PalindromeNumber.hpp"
 #include "../HeaderFiles/ContainerWithMostWater.hpp"
 #include "../HeaderFiles/RomantoInteger.hpp"
+#include "../HeaderFiles/ThreeSum.hpp"
+#include "../HeaderFiles/MaxDepthBinaryTree.hpp"
+#include "../HeaderFiles/ReverseLinkedList.hpp"
+#include "../HeaderFiles/HammingWeight.hpp"
 
 //#include <iostream>
 
@@ -59,11 +63,29 @@ int main(int argc, char ** argv)
         RomantoInteger RomantoInteger;
         RomantoInteger.Test();
         RomantoInteger.~RomantoInteger();
+        // LeetCode 15 :
+        ThreeSumZero ThreeSumZero;
+        ThreeSumZero.Test();
+        ThreeSumZero.~ThreeSumZero();
+        // LeetCode 104 :   // Test Part Not yet finished
+        MaxDepthBinaryTree MaxDepthBinaryTree;
+        MaxDepthBinaryTree.Test();
+        MaxDepthBinaryTree.~MaxDepthBinaryTree();
         // LeetCode 146 :
         LRUCache LRUCache(2);
         LRUCache.Test();
         LRUCache.~LRUCache();
+        // LeetCode 191 :
+        NumberOfOneBits NumberOfOneBits;
+        NumberOfOneBits.Test();
+        NumberOfOneBits.~NumberOfOneBits();
+        // LeetCode 206 :
+        ReverseLinkedList ReverseLinkedList;
+        ReverseLinkedList.Test();
+        ReverseLinkedList.~ReverseLinkedList();
     }
+
+
 
     cin.get();  // Stop
     return 0;

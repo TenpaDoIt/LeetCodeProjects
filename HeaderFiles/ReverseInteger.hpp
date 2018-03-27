@@ -9,6 +9,7 @@ using namespace std;
 class ReverseInteger {
 public:
 	int reverse(int x);
+	int reverse2(int x);
 	void Main();
 	~ReverseInteger() {};
 };
