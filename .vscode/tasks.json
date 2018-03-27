@@ -23,18 +23,21 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "${workspaceRoot}/SourceFiles/AddTwoNumbers.cpp",
-                "${workspaceRoot}/SourceFiles/LongestSubstring.cpp",
-                "${workspaceRoot}/SourceFiles/MedianofTwoSortedArrays.cpp",
-                "${workspaceRoot}/SourceFiles/LongestPalindromicSubstring.cpp",
-                "${workspaceRoot}/SourceFiles/ZigZagConversion.cpp",
-                "${workspaceRoot}/SourceFiles/ReverseInteger.cpp",
-                "${workspaceRoot}/SourceFiles/PalindromeNumber.cpp",
-                "${workspaceRoot}/SourceFiles/ContainerWithMostWater.cpp",
-                "${workspaceRoot}/SourceFiles/IntegertoRoman.cpp",
-                "${workspaceRoot}/SourceFiles/RomantoInteger.cpp",
-                "${workspaceRoot}/SourceFiles/ThreeSum.cpp",
-                "${workspaceRoot}/SourceFiles/LRUCache.cpp",
+                "${workspaceRoot}/SourceFiles/AddTwoNumbers.cpp",           // 2
+                "${workspaceRoot}/SourceFiles/LongestSubstring.cpp",        // 3
+                "${workspaceRoot}/SourceFiles/MedianofTwoSortedArrays.cpp", // 4
+                "${workspaceRoot}/SourceFiles/LongestPalindromicSubstring.cpp", //5
+                "${workspaceRoot}/SourceFiles/ZigZagConversion.cpp",        // 6
+                "${workspaceRoot}/SourceFiles/ReverseInteger.cpp",          // 7
+                "${workspaceRoot}/SourceFiles/PalindromeNumber.cpp",        // 9
+                "${workspaceRoot}/SourceFiles/ContainerWithMostWater.cpp",  // 11
+                "${workspaceRoot}/SourceFiles/IntegertoRoman.cpp",          // 12
+                "${workspaceRoot}/SourceFiles/RomantoInteger.cpp",          // 13
+                "${workspaceRoot}/SourceFiles/ThreeSum.cpp",                // 15
+                "${workspaceRoot}/SourceFiles/MaxDepthBinaryTree.cpp",      // 104
+                "${workspaceRoot}/SourceFiles/LRUCache.cpp",                // 146
+                "${workspaceRoot}/SourceFiles/NumberOfOneBits.cpp",         // 191
+                "${workspaceRoot}/SourceFiles/ReverseLinkedList.cpp",       // 206
                 "${workspaceRoot}/SourceFiles/LeetCodeMain.cpp",
                 "-o",
                 "LeetCodeMain.out"

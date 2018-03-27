@@ -12,7 +12,7 @@
 #include "../HeaderFiles/ThreeSum.hpp"
 #include "../HeaderFiles/MaxDepthBinaryTree.hpp"
 #include "../HeaderFiles/ReverseLinkedList.hpp"
-#include "../HeaderFiles/HammingWeight.hpp"
+#include "../HeaderFiles/NumberOfOneBits.hpp"
 
 //#include <iostream>
 
