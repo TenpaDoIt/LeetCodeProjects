@@ -11,7 +11,7 @@
                 "-g",
                 "-o",
                 "Debug.out",
-                "${workspaceRoot}/SourceFiles/HammingWeight.cpp"
+                "${workspaceRoot}/SourceFiles/ThreeSumClosest.cpp"
             ],
             "group": {
                 "kind": "build",
@@ -29,10 +29,12 @@
                 "${workspaceRoot}/SourceFiles/LongestPalindromicSubstring.cpp", //5
                 "${workspaceRoot}/SourceFiles/ZigZagConversion.cpp",        // 6
                 "${workspaceRoot}/SourceFiles/ReverseInteger.cpp",          // 7
+                "${workspaceRoot}/SourceFiles/StringtoInteger.cpp",         // 8
                 "${workspaceRoot}/SourceFiles/PalindromeNumber.cpp",        // 9
                 "${workspaceRoot}/SourceFiles/ContainerWithMostWater.cpp",  // 11
                 "${workspaceRoot}/SourceFiles/IntegertoRoman.cpp",          // 12
                 "${workspaceRoot}/SourceFiles/RomantoInteger.cpp",          // 13
+                "${workspaceRoot}/SourceFiles/LongestCommonPrefix.cpp",     // 14
                 "${workspaceRoot}/SourceFiles/ThreeSum.cpp",                // 15
                 "${workspaceRoot}/SourceFiles/MaxDepthBinaryTree.cpp",      // 104
                 "${workspaceRoot}/SourceFiles/LRUCache.cpp",                // 146

@@ -13,6 +13,9 @@
 #include "../HeaderFiles/MaxDepthBinaryTree.hpp"
 #include "../HeaderFiles/ReverseLinkedList.hpp"
 #include "../HeaderFiles/NumberOfOneBits.hpp"
+#include "../HeaderFiles/StringtoInteger.hpp"
+#include "../HeaderFiles/LongestCommonPrefix.hpp"
+#include "../HeaderFiles/ThreeSumClosest.hpp"
 
 //#include <iostream>
 
@@ -47,6 +50,10 @@ int main(int argc, char ** argv)
         ReverseInteger ReverseInteger;
         ReverseInteger.Main();
         ReverseInteger.~ReverseInteger();
+        // LeetCode 8 :
+        StringtoInteger StringtoInteger;
+        StringtoInteger.Test();
+        StringtoInteger.~StringtoInteger();
         // LeetCode 9 :
         PalindromeNumber PalindromeNumber;
         PalindromeNumber.Test();
@@ -63,10 +70,18 @@ int main(int argc, char ** argv)
         RomantoInteger RomantoInteger;
         RomantoInteger.Test();
         RomantoInteger.~RomantoInteger();
+        // LeetCode 14 :
+        LongestCommonPrefix LongestCommonPrefix;
+        LongestCommonPrefix.Test();
+        LongestCommonPrefix.~LongestCommonPrefix();
         // LeetCode 15 :
         ThreeSumZero ThreeSumZero;
         ThreeSumZero.Test();
         ThreeSumZero.~ThreeSumZero();
+        // LeetCode 16 :
+        ThreeSumClosest ThreeSumClosest;
+        ThreeSumClosest.Test();
+        ThreeSumClosest.~ThreeSumClosest();
         // LeetCode 104 :   // Test Part Not yet finished
         MaxDepthBinaryTree MaxDepthBinaryTree;
         MaxDepthBinaryTree.Test();

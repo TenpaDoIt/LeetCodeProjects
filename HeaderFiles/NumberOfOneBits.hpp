@@ -9,5 +9,6 @@ public:
     int hammingWeight(uint32_t n);
     int hammingWeight2(uint32_t n);
     int hammingWeight3(uint32_t n);
+    int hammingWeight4(uint32_t n);
     void Test();
 };

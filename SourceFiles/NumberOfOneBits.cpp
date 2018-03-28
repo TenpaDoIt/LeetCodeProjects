@@ -45,6 +45,17 @@ int NumberOfOneBits::hammingWeight3(uint32_t n)
     return Numberof1;
 }
 
+int NumberOfOneBits::hammingWeight4(uint32_t n) 
+{
+    int Numberof1=0, base =1;
+    while (base <= 32)
+    {
+        if ((n>>base++) & 1)
+            Numberof1++;
+    }
+    return Numberof1;
+}
+
 void NumberOfOneBits::Test()
 {
     uint32_t TestA = 1;
